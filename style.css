@@ -432,27 +432,26 @@ body{
     
 }
 
-/* For WebKit browsers (Chrome, Safari) */
+
 ::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
+    width: 12px;
 }
 
   ::-webkit-scrollbar-track {
-    background: #2c2c2c; /* Background of the scrollbar track */
+    background: #2c2c2c;
   }
   
   ::-webkit-scrollbar-thumb {
-    background: #444; /* Color of the scrollbar thumb */
-    border-radius: 6px; /* Roundness of the scrollbar thumb */
+    background: #444;
+    border-radius: 6px;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #666; /* Color of the scrollbar thumb on hover */
+    background: #666;
   }
   
-  /* For Edge and Internet Explorer (Limited support, but can include for completeness) */
   html {
-    scrollbar-width: thin; /* Makes the scrollbar thinner */
-    scrollbar-color: #444 #2c2c2c; /* thumb and track color */
+    scrollbar-width: thin; 
+    scrollbar-color: #444 #2c2c2c;
   }
   
